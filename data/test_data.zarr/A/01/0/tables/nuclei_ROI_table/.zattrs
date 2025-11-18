@@ -1,0 +1,13 @@
+{
+    "backend": "anndata_v1",
+    "encoding-type": "anndata",
+    "encoding-version": "0.1.0",
+    "index_key": "label",
+    "index_type": "int",
+    "instance_key": "label",
+    "region": {
+        "path": "../labels/nuclei"
+    },
+    "table_version": "1",
+    "type": "masking_roi_table"
+}

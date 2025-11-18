@@ -1,0 +1,112 @@
+{
+    "multiscales": [
+        {
+            "axes": [
+                {
+                    "name": "c",
+                    "type": "channel"
+                },
+                {
+                    "name": "z",
+                    "type": "space",
+                    "unit": "micrometer"
+                },
+                {
+                    "name": "y",
+                    "type": "space",
+                    "unit": "micrometer"
+                },
+                {
+                    "name": "x",
+                    "type": "space",
+                    "unit": "micrometer"
+                }
+            ],
+            "datasets": [
+                {
+                    "coordinateTransformations": [
+                        {
+                            "scale": [
+                                1.0,
+                                1.0,
+                                0.65,
+                                0.65
+                            ],
+                            "type": "scale"
+                        }
+                    ],
+                    "path": "0"
+                },
+                {
+                    "coordinateTransformations": [
+                        {
+                            "scale": [
+                                1.0,
+                                1.0,
+                                1.3,
+                                1.3
+                            ],
+                            "type": "scale"
+                        }
+                    ],
+                    "path": "1"
+                },
+                {
+                    "coordinateTransformations": [
+                        {
+                            "scale": [
+                                1.0,
+                                1.0,
+                                2.6,
+                                2.6
+                            ],
+                            "type": "scale"
+                        }
+                    ],
+                    "path": "2"
+                }
+            ],
+            "version": "0.4"
+        }
+    ],
+    "omero": {
+        "channels": [
+            {
+                "active": true,
+                "color": "00FFFF",
+                "label": "DAPI",
+                "wavelength_id": "DAPI",
+                "window": {
+                    "end": 700.0,
+                    "max": 65535.0,
+                    "min": 0.0,
+                    "start": 0.0
+                }
+            },
+            {
+                "active": true,
+                "color": "FF00FF",
+                "label": "nanog",
+                "wavelength_id": "nanog",
+                "window": {
+                    "end": 200.0,
+                    "max": 65535.0,
+                    "min": 0.0,
+                    "start": 0.0
+                }
+            },
+            {
+                "active": true,
+                "color": "FFFF00",
+                "label": "Lamin B1",
+                "wavelength_id": "Lamin B1",
+                "window": {
+                    "end": 1500.0,
+                    "max": 65535.0,
+                    "min": 0.0,
+                    "start": 0.0
+                }
+            }
+        ]
+    }
+}

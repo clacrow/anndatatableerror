@@ -1,0 +1,23 @@
+{
+    "plate": {
+        "columns": [
+            {
+                "name": "01"
+            }
+        ],
+        "name": "Test Dataset",
+        "rows": [
+            {
+                "name": "A"
+            }
+        ],
+        "version": "0.4",
+        "wells": [
+            {
+                "columnIndex": 0,
+                "path": "A/01",
+                "rowIndex": 0
+            }
+        ]
+    }
+}

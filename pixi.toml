@@ -10,3 +10,4 @@ version = "0.1.0"
 [dependencies]
 python = "<3.13"
 ngio = ">=0.4.4,<0.5"
+dask = "<2025.9"
