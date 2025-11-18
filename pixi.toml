@@ -1,0 +1,12 @@
+[workspace]
+authors = ["Pawel Rzonca <pawel.rzonca@contractors.roche.com>"]
+channels = ["conda-forge"]
+name = "anndatatableerror"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "<3.13"
+ngio = ">=0.4.4,<0.5"
