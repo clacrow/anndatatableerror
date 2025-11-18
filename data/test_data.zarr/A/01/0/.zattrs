@@ -74,10 +74,10 @@
             {
                 "active": true,
                 "color": "00FFFF",
-                "label": "DAPI",
-                "wavelength_id": "DAPI",
+                "label": "channel_0",
+                "wavelength_id": "channel_0",
                 "window": {
-                    "end": 700.0,
+                    "end": 65535.0,
                     "max": 65535.0,
                     "min": 0.0,
                     "start": 0.0
@@ -86,10 +86,10 @@
             {
                 "active": true,
                 "color": "FF00FF",
-                "label": "nanog",
-                "wavelength_id": "nanog",
+                "label": "channel_1",
+                "wavelength_id": "channel_1",
                 "window": {
-                    "end": 200.0,
+                    "end": 65535.0,
                     "max": 65535.0,
                     "min": 0.0,
                     "start": 0.0
@@ -98,10 +98,10 @@
             {
                 "active": true,
                 "color": "FFFF00",
-                "label": "Lamin B1",
-                "wavelength_id": "Lamin B1",
+                "label": "channel_2",
+                "wavelength_id": "channel_2",
                 "window": {
-                    "end": 1500.0,
+                    "end": 65535.0,
                     "max": 65535.0,
                     "min": 0.0,
                     "start": 0.0

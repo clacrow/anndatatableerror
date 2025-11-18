@@ -1,6 +1,5 @@
 {
     "tables": [
-        "nuclei_ROI_table",
-        "FOV_ROI_table"
+        "nuclei_ROI_table"
     ]
 }
